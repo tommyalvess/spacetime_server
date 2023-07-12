@@ -17,8 +17,8 @@ export async function authRoutes(app: FastifyInstance) {
       null,
       {
         params: {
-          client_id: process.env.GITHUB_CLIENT_ID,
-          client_secret: process.env.GITHUB_CLIENT_SECRET,
+          client_id: "f97370931cf475b81d01",
+          client_secret: "ec24a9053eb64328451655a71cfddc62bd214aaa",
           code,
         },
         headers: {
